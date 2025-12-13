@@ -1,6 +1,10 @@
 # My Personal Website 
 This is a static personal portfolio website built with HTML & CSS, served via **Nginx** inside a lightweight **Alpine** Docker container.  
 It uses **Docker Compose** for simple deployment and is securely hosted using **Cloudflare Tunnel**.
+
+## 🔧 Pre-requisites
+- docker desktop or docker installed on your computer
+- docker compose installed on your computer
 ## 🔧 Tech Stack
 - **HTML/CSS** — Static site content
 - **Nginx** — Web server
