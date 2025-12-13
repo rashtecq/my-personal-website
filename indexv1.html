@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rajesh Sharma - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        /* Left column - Photo & basic info */
+        .left-column {
+            flex: 1;
+            max-width: 300px;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #0078D7;
+        }
+        h1 {
+            font-size: 24px;
+            color: #0078D7;
+        }
+        h2 {
+            color: #0078D7;
+            border-bottom: 2px solid #0078D7;
+            padding-bottom: 5px;
+        }
+        /* Right column - Work Experience & other sections */
+        .right-column {
+            flex: 2;
+            margin-left: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+        .job p {
+            font-style: italic;
+            color: #555;
+            margin: 5px 0 10px;
+        }
+        .job ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .job li {
+            margin-bottom: 5px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- LEFT COLUMN -->
+    <div class="left-column">
+        <img src="me.jpg" alt="Rajesh Photo" class="profile-photo">
+        <h1>Rajesh Sharma</h1>
+        <p><strong>DevSecOps Engineer | Cloud Infrastructure Specialist | License Administrator|Software Configuration Management</strong></p>
+        <p>Email: rajesh.sharma1388@gmail.com</p>
+        <p>Location: Gothenburg, Sweden</p>
+        <p>Phone: +46-0769636308</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rashtecq/" target="_blank">linkedin.com/in/rashtecq</a></p>
+        <p><strong>Booking:</strong> <a href="https://n8n.rashtecq.online/webhook/2945c7f0-b5ab-48ff-b5eb-d1b2584ec8e4/chat" target="_blank" style="color: #4CAF50; text-decoration: none;">Click here to book an appointment</a></p>
+        
+    </div>
+    <!-- RIGHT COLUMN -->
+    <div class="right-column">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+              I'm Rajesh Sharma, a DevOps and Cloud Infrastructure Engineer with 16+ years of experience building secure, scalable, and reliable systems. I specialize in Linux/Windows administration, CI/CD pipelines, automation, and container orchestration with Kubernetes. I also specialize in License Server Management. I love solving tough problems, streamlining workflows, and sharing knowledge with my team. Always curious, I'm passionate about learning new technologies and applying agile principles to deliver solutions that matter.
+            
+            </p>
+            <p>
+                Recently, I've been diving deep into Artificial Intelligence and Machine Learning  building several projects to apply what I learn, from automation enhancements to intelligent monitoring solutions. I'm still exploring and experimenting every day, and I look forward to contributing to impactful AI-driven initiatives if given the opportunity.
+            </p>
+            <p>
+              If you'd like to work together, share ideas, or talk all things tech, feel free to 
+              reach out.I'm always up for a good conversation.
+            </p>
+          </section>
+          <section id="focus">
+            <h2>Current Focus</h2>
+            <ul>
+              <li>Learning advanced Machine Learning and Deep Learning concepts</li>
+              <li>Experimenting with Natural Language Processing (NLP) for automation workflows</li>
+              <li>Using Ollama for building lightweight, local LLM-backed applications</li>
+              <li>Integrating n8n automations with AI models for intelligent task orchestration</li>
+              <li>Deploying AI-powered solutions with Docker for portability and scalability</li>
+              <li>Leveraging Cloudflare to secure and accelerate AI application delivery</li>
+              <li>Exploring MLOps practices for deploying and maintaining ML models</li>
+            </ul>
+          </section>
+          
+          <section id="projects">
+            <h2>AI Project Highlights</h2>
+            <ul>
+              <li><strong>AI Chatbot with Ollama + n8n:</strong> Built a local LLM chatbot that automates support workflows via n8n, responding to user queries and triggering backend actions.</li>
+              <li><strong>Dockerized AI Pipeline:</strong> Developed a containerised pipeline combining Ollama model inference with n8n automation, making deployment seamless across environments.</li>
+              <li><strong>Cloudflare-secured AI API:</strong> Hosted AI inference API behind Cloudflare for performance optimization, DDoS protection, and secure access control.</li>
+            </ul>
+          </section>
+        <h2>Key Responsibilities and Scope</h2>
+        <div class="job">
+            <ul>
+                <li>Administer, configure, and install key DevOps tools, including Gerrit, Jenkins, Zuul, JFrog Artifactory, Discourse, and Splunk.</li>
+                <li>Provision, configure, and manage cloud and on-premises infrastructure using tools such as Terraform, Ansible, and Kubernetes.</li>
+                <li>Work with GitHub pipelines to manage CI/CD workflows and SCM processes.</li>
+                <li>Perform Linux and Windows system administration tasks, including installation, troubleshooting, and upgrade management.</li>
+                <li>Monitor systems, servers, and applications to ensure performance and reliability, while proactively addressing issues.</li>
+                <li>Design, implement, and test disaster recovery plans to safeguard infrastructure and application continuity.</li>
+                <li>Install and configure SSL certificates to enhance system security.</li>
+                <li>Troubleshoot system reliability issues, including availability, performance, monitoring, and logging concerns.</li>
+                <li>Create and maintain documentation for system configurations, processes, and troubleshooting procedures.</li>
+                <li>Automate repetitive tasks and processes across the SDLC, from infrastructure provisioning to software deployments and configuration management.</li>
+                <li>Implement and maintain monitoring, logging, and alerting systems to ensure applications and systems are performing optimally and to quickly detect and address issues.</li>
+                <li>Perform patch management by applying OS patches and upgrades regularly on Windows and Linux servers.</li>
+                <li>Diagnose and resolve system, application, and network-related issues to minimize service disruptions.</li>
+                <li>Collaborate with cross-functional teams to provide support and implement system improvements.</li>
+                <li>Facilitate communication and collaboration between development, operations, and other teams to align on goals and ensure a smooth workflow.</li>
+                <li>Debug and resolve software and infrastructure issues, working closely with development teams to fix bugs and improve application stability.</li>
+                <li>Create and maintain documentation for systems, processes, and incident resolutions to share knowledge and improve team efficiency.</li>
+                <li>Integrate security checks into the development pipeline (DevSecOps) to ensure applications meet security standards and regulatory compliance.</li>
+            </ul>
+        </div>
+        <h2>Technical Expertise</h2>
+        <div class="job">
+            <ul>
+                <li>Expertise in Linux and Windows system administration, including server installation, configuration, and troubleshooting.</li>
+                <li>Hands-on experience with monitoring, alerting, and logging tools such as Splunk.</li>
+                <li>Familiarity with administering CI/CD tools and SCM workflows (e.g., Gerrit, Jenkins, Zuul, GitHub pipelines)..</li>
+                <li>Proficiency in designing and implementing disaster recovery plans.</li>
+                <li>Knowledge of scripting languages such as Bash, Python, or PowerShell.</li>
+                <li>Professional understanding of Azure cloud services or similar cloud environments.</li>
+                <li>Strong problem-solving skills and the ability to diagnose issues across systems, applications, and networks.</li>
+                <li>Ability to configure and install SSL certificates for secure communication.</li>
+                <li>Solid communication and collaboration skills to effectively work with system teams.</li>
+            </ul>
+        </div>
+        <h2>License Administration</h2>
+        <div class="job">
+            <ul>
+                <li>
+                    <strong>License Allocation and Management:</strong> (FlexLM, RLM, CodeMeter, Olicense..)
+                    <ul>
+                        <li>Grant individual licenses to users, add and remove users from licenses, and assign them to specific products or toolboxes.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Software Deployment:</strong>
+                    <ul>
+                        <li>Facilitate the installation of software on user machines, often through silent installers for mass deployment, or manage network-based deployments for shared licenses.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>User Support:</strong>
+                    <ul>
+                        <li>Provide users with instructions for activation and installation, and troubleshoot license-related issues.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Configuration:</strong>
+                    <ul>
+                        <li>Set up and configure the license manager for different licensing models, such as network-based concurrent licenses.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Account and Portal Management:</strong>
+                    <ul>
+                        <li>Use the vendor's online License Center or portal to manage licenses, link them to master accounts, and update contact information.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Reporting and Auditing:</strong>
+                    <ul>
+                        <li>Monitor software usage and license consumption to ensure compliance and efficient resource allocation.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Options File Configuration (for Network Licenses):</strong>
+                    <ul>
+                        <li>For network licenses, use an options file to specify which users or groups can access specific products, reserve licenses, or restrict access.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <h2>Knowledge</h2>
+        <div class="job">
+            <ul>
+                <li>Extensive understanding of modern DevOps practices, including continuous integration, testing, delivery, and monitoring.</li>
+                <li>Developed and deployed container-based solutions in hybrid and cloud environments, successfully implementing Kubernetes orchestration.</li>
+                <li>Collaborated in multi-vendor and multi-cultural environments, effectively overcoming operational differences to drive shared outcomes.</li>
+                <li>Contributed to projects within agile teams, participating in ceremonies and applying agile methodologies to deliver incremental solutions.</li>
+                <li>Actively worked with operations teams to investigate and resolve technical issues, enabling seamless workflows and system reliability.</li>
+                <li>Diagnosed and resolved complex system, application, and network-related issues through critical analysis and systematic troubleshooting.</li>
+                <li>Comprehensive knowledge of containerization concepts, cloud technologies, and toolchains used within Enterprise Development (ED).</li>
+                <li>Familiarity with specific applications, modules, or platforms utilized within ED.</li>
+                <li>Well-versed in the operational processes, support functions, and sourcing setup within ED.</li>
+                <li>Strong grasp of software engineering principles, system workflows, and automation strategies critical for DevOps.</li>
+            </ul>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="job">
+            <ul>
+                <li>Explicit experience in the DevOps engineering field, contributing to CI/CD pipeline design, optimization, and automation projects.</li>
+                <li>Implemented and maintained containerized applications and solutions in cloud environments, leveraging technologies like Docker, Kubernetes, and similar tools.</li>
+                <li>Managed toolchains essential for development, deployment, and monitoring across enterprise systems.</li>
+                <li>Collaborated with operations teams to troubleshoot system issues and improve DevOps workflows.</li>
+                <li>Designed monitoring and recovery workflows for high-availability systems, ensuring reliability.</li>
+                <li>Agile mindset and adaptability to evolving requirements.</li>
+                <li>Advanced proficiency in DevOps toolchain configuration.</li>
+                <li>Strong problem-solving and documentation skills.</li>
+                <li>Risk identification and mitigation strategies.</li>
+                <li>Peer mentoring and technical coaching abilities.</li>
+    
+            </ul>
+        </div>
+        <h2>Experience</h2>
+        <div class="job">
+            <ul>
+                <li>Agile mindset and flexibility in handling complexity, ambiguity, and evolving requirements within projects.</li>
+                <li>Advanced proficiency in using and configuring DevOps tools (e.g., Jenkins, GitHub Actions, Gerrit, Zuul).</li>
+                <li>Technical expertise in configuring containerized environments and deploying cloud-native solutions.</li>
+                <li>Strong ability to design and maintain automation in CI/CD pipelines for scalable software delivery systems.</li>
+                <li>Excellent problem-solving skills with a focus on diagnosing and resolving reliability, performance, and deployment challenges.</li>
+                <li>Strong visualization and documentation skills, enabling clear communication of intricate technical concepts and designs.</li>
+                <li>Capacity to identify risks, mitigate them, and drive solutions for seamless deployment pipelines and infrastructure setup.</li>
+                <li>Technical fluency with SSL certificate management to ensure secure communication across architecture platforms.</li>
+                <li>Hands-on proficiency in scripting languages such as Python, PowerShell, and Bash for automating routine tasks.</li>
+                <li>High capability in diagnosing and troubleshooting performance, availability, and deployment-related issues.</li>
+                <li>Ability to work collaboratively on cross-functional teams to meet system requirements and ensure infrastructure reliability.</li>
+                <li>Experience mentoring peers in tools, processes, and workflows, fostering a culture of knowledge-sharing and continuous improvement.</li>
+                <li>Fluent in English to effectively communicate across diverse teams, including stakeholders, vendors, and technical personnel.</li>
+                <li>Expert in License administration for various enterprise applications and tools.</li>
+            </ul>
+        </div>
+
+
+
+
+        <h2>Work Experience</h2>
+        <div class="job">
+            <h3>DevOps Engineer @ Aurobay</h3>
+            <p><strong>From December 2024 - continue... | Gothenburg, Sweden</strong></p>
+            <ul>
+                <li>Administered and configured DevOps tools including Gerrit, Jenkins, Zuul, JFrog Artifactory, Discourse, and Splunk.</li>
+                <li>Managed cloud and on-premises infrastructure using Terraform, Ansible, and Kubernetes.</li>
+                <li>Implemented CI/CD workflows using GitHub pipelines and optimized SCM processes.</li>
+                <li>Designed disaster recovery plans and implemented SSL certificates for security.</li>
+                <li>Handled licensing administration (FlexLM, Olicense, CodeMeter, RLM).</li>
+                <li>Monitored systems and applications for performance and reliability, proactively resolving issues.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>DevOps Engineer @ Explipro Group AB</h3>
+            <p><strong>Aug 2021 - Nov 2024 | Gothenburg, Sweden</strong></p>
+            <ul>
+                <li>Designed and maintained CI/CD pipelines across enterprise development projects.</li>
+                <li>Implemented containerized applications using Docker and Kubernetes.</li>
+                <li>Administered and configured core DevOps tools including Gerrit, Jenkins, Zuul, JFrog Artifactory, and Splunk.</li>
+                <li>Collaborated with operations teams to resolve issues and improve workflows.</li>
+                <li>Designed monitoring and recovery processes for high-availability systems.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Sr. Cloud Infrastructure Consultant @ Capgemini</h3>
+            <p><strong>Nov 2013 - Jul 2021</strong></p>
+            <ul>
+                <li>Provided Linux and Windows system administration across enterprise systems.</li>
+                <li>Implemented and maintained SSL certificates following security best practices.</li>
+                <li>Diagnosed and resolved complex system, application, and network issues.</li>
+                <li>Automated deployments and integrated monitoring solutions.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Linux Administrator @ ValueRoam Technologies</h3>
+            <p><strong>May 2012 - Aug 2013</strong></p>
+            <ul>
+                <li>Maintained and supported Linux environments for hosted applications.</li>
+                <li>Performed server installations, upgrades, and troubleshooting.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Operations Engineer @ Omnesys Technologies</h3>
+            <p><strong>Apr 2012 - May 2012</strong></p>
+            <ul>
+                <li>Handled operational monitoring and support for trading platforms.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Sr. Customer Engineer @ Precision Infomatics</h3>
+            <p><strong>Aug 2008 - Mar 2010</strong></p>
+            <ul>
+                <li>Delivered technical support and troubleshooting for customer systems.</li>
+            </ul>
+        </div>
+        <!-- EXTRA SECTIONS MERGED IN -->
+        <h2>Technical Expertise</h2>
+        <ul>
+            <li>Cloud-native deployments, containerization (Docker, Kubernetes).</li>
+            <li>Automation in CI/CD pipelines using Jenkins, GitHub Actions, Gerrit, Zuul.</li>
+            <li>Scripting in Bash, Python, PowerShell for automation and tooling.</li>
+            <li>Infrastructure provisioning via Terraform and Ansible.</li>
+            <li>Monitoring and alerting solutions (Splunk, custom dashboards).</li>
+            <li>SSL certificate management and security hardening.</li>
+            <li>License manager setup and compliance auditing.</li>
+        </ul>
+        <h2>Knowledge</h2>
+        <ul>
+            <li>Modern DevOps practices including continuous integration, delivery, and monitoring.</li>
+            <li>Hybrid cloud architecture and orchestration with Kubernetes.</li>
+            <li>Agile methodology and experience in multi-vendor/multi-cultural teams.</li>
+            <li>Strong software engineering principles & automation strategies.</li>
+        </ul>
+
+
+        <h2>Behaviour</h2>
+        <ul>
+            <li>Demonstrated strong teamwork skills by engaging collaboratively in distributed, multi-vendor/multi-cultural settings.</li>
+            <li>Maintained a curious and open-minded approach toward expanding my expertise and networking to develop T-shaped skills across specialties.</li>
+            <li>Continuously sought to enhance skills through technical mentoring, peer coaching, and external learning opportunities.</li>
+            <li>Applied agile principles in daily workflows, actively participating in ceremonies and ensuring user-centric delivery outcomes aligned with product needs.</li>
+            <li>Displayed adaptability to ambiguity by analyzing problems, converging on solutions, and mitigating challenges effectively.</li>
+            <li>Consistently communicated technical concepts to stakeholders, enabling them to make informed decisions and understand system implications.</li>
+        </ul>
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Computer Applications</li>
+        </ul>        
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Certified Solutions Architect-Associate</li>
+            <li>ITIL v3 Foundation</li>
+            <li>RHCE</li>
+            <li>VCA-DCV</li>
+            <li>VCP5</li>
+        </ul>        
+    </div>
+</div>
+</body>
+</html>

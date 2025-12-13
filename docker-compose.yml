@@ -1,0 +1,12 @@
+services:
+  aboutme:
+    build: .
+    container_name: aboutme
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    networks:
+      - cloudflared
+networks:
+  cloudflared:
+    external: true  # Uses an existing network
